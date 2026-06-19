@@ -216,3 +216,160 @@ margin-bottom:15px;
 ```
 
 }
+/* ===== HOMEPAGE V2 ===== */
+
+.luxury-header{
+background:linear-gradient(135deg,#d7eaf3,#eef7fb);
+padding:40px 20px;
+border-bottom:3px solid #c6a15b;
+}
+
+.header-top{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:40px;
+}
+
+.header-center{
+text-align:center;
+}
+
+.header-center h1{
+color:#2e4a62;
+font-size:3rem;
+margin-bottom:10px;
+}
+
+.header-center p{
+color:#c6a15b;
+font-size:1.3rem;
+font-style:italic;
+}
+
+.ornament{
+color:#c6a15b;
+font-size:2rem;
+}
+
+.luxury-nav{
+background:white;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:30px;
+padding:18px;
+border-bottom:1px solid #e5e5e5;
+}
+
+.luxury-nav a{
+color:#2e4a62;
+text-decoration:none;
+font-weight:600;
+}
+
+.hero-v2{
+background:#f8fbfd;
+padding:70px 5%;
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+gap:30px;
+align-items:center;
+}
+
+.hero-left img,
+.hero-right img{
+width:100%;
+border-radius:18px;
+box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+.hero-center{
+text-align:center;
+}
+
+.hero-center h2{
+font-size:2.8rem;
+color:#2e4a62;
+margin-bottom:20px;
+}
+
+.gold-divider{
+width:120px;
+height:3px;
+background:#c6a15b;
+margin:25px auto;
+}
+
+.hero-date{
+font-size:1.2rem;
+color:#444;
+margin-bottom:25px;
+}
+
+.hero-location{
+font-size:1.1rem;
+margin-bottom:30px;
+}
+
+.gold-button{
+background:#c6a15b;
+color:white;
+text-decoration:none;
+padding:15px 30px;
+border-radius:50px;
+display:inline-block;
+font-weight:bold;
+}
+
+.countdown-section{
+background:#d7eaf3;
+text-align:center;
+padding:80px 20px;
+}
+
+.countdown-section h2{
+color:#2e4a62;
+margin-bottom:40px;
+}
+
+#countdown{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.count-box{
+background:white;
+min-width:130px;
+padding:25px;
+border-radius:15px;
+box-shadow:0 8px 20px rgba(0,0,0,.1);
+}
+
+.count-box span{
+display:block;
+font-size:2.5rem;
+color:#c6a15b;
+font-weight:bold;
+}
+
+.count-box small{
+color:#2e4a62;
+text-transform:uppercase;
+}
+
+@media(max-width:900px){
+
+```
+.hero-v2{
+    grid-template-columns:1fr;
+}
+
+.header-center h1{
+    font-size:2rem;
+}
+```
+
+}
