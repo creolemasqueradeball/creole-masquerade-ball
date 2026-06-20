@@ -736,17 +736,14 @@ margin-bottom:20px;
 }
 .heritage-banner{
 background:#0f1f33;
-padding:40px 0;.about-expect-v2{
+padding:40px 0;
+}
 background:#13263d;
 padding:100px 5%;
 text-align:center;
 }
 
-.about-expect-v2 h2{
-color:#c6a15b;
-font-size:2.6rem;
-margin-bottom:20px;
-}
+
 
 .expect-grid-v2{
 display:grid;
