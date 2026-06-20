@@ -790,3 +790,51 @@ margin:auto;
 border-top:3px solid #c6a15b;
 border-bottom:3px solid #c6a15b;
 }
+.about-expect-v2{
+background:#0b2340;
+padding:80px 30px;
+text-align:center;
+}
+
+.about-expect-v2 h2{
+color:#c6a15b;
+font-size:2.5rem;
+margin-bottom:30px;
+}
+
+.expect-grid-v2{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:30px;
+max-width:1200px;
+margin:auto;
+}
+
+.expect-card-v2{
+background:#102c4a;
+border:1px solid #c6a15b;
+padding:15px;
+}
+
+.expect-card-v2 img{
+width:100%;
+height:300px;
+object-fit:cover;
+display:block;
+}
+
+.expect-card-v2 h3{
+color:#c6a15b;
+margin:15px 0 10px;
+}
+
+.expect-card-v2 p{
+color:white;
+line-height:1.6;
+}
+
+@media(max-width:768px){
+.expect-grid-v2{
+grid-template-columns:1fr;
+}
+}
