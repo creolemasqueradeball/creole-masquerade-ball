@@ -734,3 +734,16 @@ font-size:1.1rem;
 line-height:1.9;
 margin-bottom:20px;
 }
+.heritage-banner{
+background:#0f1f33;
+padding:40px 0;
+}
+
+.heritage-banner img{
+width:100%;
+display:block;
+max-width:1400px;
+margin:auto;
+border-top:3px solid #c6a15b;
+border-bottom:3px solid #c6a15b;
+}
