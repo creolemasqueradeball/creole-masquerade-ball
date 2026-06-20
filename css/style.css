@@ -680,7 +680,7 @@ margin:auto;
 }
 
 .about-story-image{
-    max-width:700px;
+    max-width:600px;
     margin:0 auto 50px;
 }
 
@@ -692,7 +692,7 @@ margin:auto;
 
 .about-story-content{
     max-width:900px;
-    margin:auto;
+    margin:60px auto 0;
 }
 
 .about-story-image img{
