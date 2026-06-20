@@ -676,3 +676,38 @@ color:#e6e6e6;
 max-width:750px;
 margin:auto;
 }
+.about-story-v2{
+background:#13263d;
+padding:100px 5%;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:50px;
+align-items:center;
+}
+
+.about-story-image img{
+width:100%;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.25);
+}
+
+.about-story-content h2{
+color:#c6a15b;
+font-size:2.4rem;
+margin-bottom:20px;
+}
+
+.about-story-content p{
+color:white;
+line-height:1.9;
+margin-bottom:20px;
+font-size:1.1rem;
+}
+
+@media(max-width:900px){
+
+.about-story-v2{
+grid-template-columns:1fr;
+}
+
+}
