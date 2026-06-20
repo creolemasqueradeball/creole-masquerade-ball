@@ -538,6 +538,48 @@ overflow:hidden;
 box-shadow:0 10px 25px rgba(0,0,0,.08);
 transition:transform .3s ease;
 }
+/* ===== ABOUT PAGE ===== */
+
+.about-hero{
+background:#0f1f33;
+padding:100px 20px;
+text-align:center;
+}
+
+.about-hero h1{
+font-size:3rem;
+color:#c6a15b;
+margin-bottom:20px;
+}
+
+.about-hero p{
+font-size:1.3rem;
+color:white;
+font-style:italic;
+}
+
+.about-story,
+.about-mask{
+max-width:1000px;
+margin:auto;
+padding:80px 30px;
+}
+
+.about-story h2,
+.about-mask h2{
+color:#c6a15b;
+font-size:2.2rem;
+margin-bottom:25px;
+text-align:center;
+}
+
+.about-story p,
+.about-mask p{
+font-size:1.1rem;
+line-height:1.9;
+margin-bottom:20px;
+color:#333;
+}
 
 .featured-card-final:hover{
 transform:translateY(-6px);
