@@ -808,3 +808,38 @@ line-height:1.6;
 grid-template-columns:1fr;
 }
 }
+/* ===== ABOUT PAGE VISUAL ENHANCEMENTS ===== */
+
+.about-hero-v2{
+padding:150px 20px;
+}
+
+.about-hero-v2 h1{
+font-size:4.5rem;
+}
+
+.heritage-banner{
+padding:60px 0;
+}
+
+.heritage-banner img{
+border:3px solid #c6a15b;
+}
+
+.expect-card-v2{
+transition:.3s;
+}
+
+.expect-card-v2:hover{
+transform:translateY(-8px);
+}
+
+.mask-section-v2{
+padding:140px 20px;
+}
+
+.about-story-v2{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+}
