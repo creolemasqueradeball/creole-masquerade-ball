@@ -736,16 +736,17 @@ font-size:1.1rem;
 line-height:1.9;
 margin-bottom:20px;
 }
+
 .heritage-banner{
 background:#0f1f33;
 padding:40px 0;
 }
+
+.about-expect-v2{
 background:#13263d;
 padding:100px 5%;
 text-align:center;
 }
-
-
 
 .expect-grid-v2{
 display:grid;
