@@ -636,3 +636,43 @@ border-top:4px solid #c6a15b;
 color:#2e4a62;
 margin-bottom:15px;
 }
+/* ===== ABOUT PAGE V2 ===== */
+
+.about-hero-v2{
+background:#0f1f33;
+padding:120px 20px;
+text-align:center;
+}
+
+.about-hero-inner{
+max-width:900px;
+margin:auto;
+}
+
+.about-hero-v2 h1{
+font-size:3.5rem;
+color:#c6a15b;
+margin-bottom:25px;
+}
+
+.gold-divider{
+width:120px;
+height:3px;
+background:#c6a15b;
+margin:25px auto;
+}
+
+.about-tagline{
+font-size:1.4rem;
+color:white;
+font-style:italic;
+margin-bottom:30px;
+}
+
+.about-intro{
+font-size:1.15rem;
+line-height:1.9;
+color:#e6e6e6;
+max-width:750px;
+margin:auto;
+}
